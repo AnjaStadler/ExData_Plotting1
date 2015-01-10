@@ -21,6 +21,7 @@ png(file="figure/plot2.png", width=480, height=480, units="px")
 
 # set x-axis ticks to english
 Sys.setlocale("LC_TIME", "en_US")
+
 # plot
 plot(datasubset$datetime, datasubset$Global_active_power, type = "l", ylab = "Global Active Power (kilowatts)", xlab = "")
 

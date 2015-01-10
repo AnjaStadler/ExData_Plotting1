@@ -40,6 +40,5 @@ legend("topright",
 # subplot 4
 plot(datasubset$datetime, datasubset$Global_reactive_power, type = "l", ylab = "Global_reactive_power", xlab = "datetime")
 
-
 dev.off()
 
