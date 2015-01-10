@@ -1,3 +1,7 @@
+# install package dplyr
+install.packages("dplyr")
+ 
+# load libraries
 library(dplyr)
 
 # read data
